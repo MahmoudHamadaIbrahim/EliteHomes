@@ -5,6 +5,7 @@ EliteHomes is a high-end, responsive web template designed for real estate agenc
 🚀 Live Demo: https://elite-homes-mahmoud-hamada.vercel.app
 
 ✨ Key Features
+
 Modern Hero Section: A clean and impactful introduction to the brand.
 
 Property Listings Grid: Beautifully designed cards to showcase homes with price tags and details.
@@ -18,6 +19,7 @@ Fully Responsive: Seamlessly transitions between Desktop, Tablet, and Mobile vie
 Scroll-Friendly Navigation: Easy-to-use navbar for a better user experience.
 
 🛠️ Tech Stack
+
 HTML5: Semantic structure for better SEO.
 
 CSS3: Custom styling for brand-specific colors and unique layouts.
