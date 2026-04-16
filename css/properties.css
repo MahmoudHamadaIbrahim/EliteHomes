@@ -1,0 +1,70 @@
+
+
+.premium-badge {
+  border: 1px solid rgba(127, 39, 255, 0.25);
+  background-color: var(--light-purple-bg);
+  color: var(--primary-purple);
+  font-size: 0.9rem;
+}
+
+.premium-badge::before,
+.premium-badge::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 60px; 
+  height: 2px; 
+  opacity: 0.6; 
+}
+
+.premium-badge::before {
+  right: 100%; 
+  margin-right: 15px;
+  background: linear-gradient(to left, var(--primary-purple), transparent);
+}
+
+.premium-badge::after {
+  left: 100%; 
+  margin-left: 15px; 
+  background: linear-gradient(to right, var(--primary-purple), transparent);
+}
+
+.card-img-custom {
+  height: 250px;
+  transition: transform 0.3s;
+}
+.card:hover .card-img-custom {
+  transform: scale(1.05);
+}
+
+.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+}
+
+.btn-circle-sm:hover i.fa-heart {
+  color: var(--heart-red) !important;
+}
+
+.btn-light-purple {
+  background-color: var(--light-purple-bg);
+  color: var(--primary-purple);
+}
+
+.btn-light-purple:hover {
+  background-color: var(--light-purple-bg-hover) !important;
+  color: var(--primary-purple) !important;
+}
+
+.btn-primary-gradient {
+  background-color: #9747ff;
+  border: none;
+  color: white;
+  transition: all 0.2s;
+}
+
+.btn-primary-gradient:hover {
+  background-color: #7f27ff;
+  color: white;
+}

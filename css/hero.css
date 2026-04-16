@@ -1,0 +1,77 @@
+.hero-section {
+  background-image: linear-gradient(rgba(77, 23, 154, 0.8) 0% 100%),
+    url("../images/hero-bg-img.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 5rem;
+}
+
+.hero-title {
+  margin-block: 1.5rem;
+  line-height: 1.2;
+  font-size: 3.525rem;
+}
+
+.my-container {
+  width: 84%;
+}
+
+/* --- 2. Form Elements Styling --- */
+.form-label {
+  display: block;
+}
+
+.form-control,
+.form-select,
+.input-group-text {
+  height: 50px;
+  padding: 0.625rem 1rem;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.input-group .input-group-text {
+  border-right: none;
+  color: #9ca3af;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group .form-control {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.input-group:focus-within .input-group-text {
+  border-color: #7f27ff;
+  border-right: 0;
+}
+
+.input-group:focus-within .form-control {
+  border-color: #7f27ff;
+  border-left: 0 !important;
+  box-shadow: none;
+}
+
+.input-group:focus-within {
+  border-radius: 0.5rem;
+}
+
+/* --- 4. Search Button & Stats --- */
+.btn-primary {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #7e00de;
+  border-color: #7e00de;
+}

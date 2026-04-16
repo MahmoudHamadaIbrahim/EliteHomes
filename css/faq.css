@@ -1,0 +1,53 @@
+
+.section-bg-light {
+    background-color: var(--section-bg);
+}
+
+.text-purple { 
+    color: var(--primary-purple) !important; 
+}
+
+.section-subtitle-limit {
+    max-width: 680px;
+}
+
+.faq-width {
+    max-width: 900px;
+}
+
+.badge-help {
+    padding: 8px 20px;
+    background: linear-gradient(to right, var(--light-purple-bg), #fff);
+    border: 1px solid #e0e0e0;
+    color: var(--primary-purple);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.line-deco {
+    width: 60px;
+    height: 2px;
+}
+
+.line-left {
+    background: linear-gradient(to right, transparent, var(--primary-purple));
+}
+
+.line-right {
+    background: linear-gradient(to left, transparent, var(--primary-purple));
+}
+
+.accordion-custom .accordion-button {
+    background-color: #fff;
+    color: #333;
+    box-shadow: none; 
+}
+
+.accordion-custom .accordion-button:hover {
+    background-color: #f8f9fa;
+}
+
+.accordion-custom .accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+}

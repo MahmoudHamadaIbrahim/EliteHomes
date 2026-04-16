@@ -1,0 +1,24 @@
+
+.footer-section {
+    background: linear-gradient(135deg, #4a0e8f 0%, #240046 100%);
+    color: white;
+}
+
+.footer-icon {
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.1); /* شفافية */
+    border-radius: 6px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-icon:hover {
+    background-color: var(--primary-purple);
+    transform: scale(1.05);
+}

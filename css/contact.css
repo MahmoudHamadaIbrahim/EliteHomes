@@ -1,0 +1,113 @@
+/* --- Variables --- */
+
+
+/* --- Section Decoration --- */
+.section-label {
+  position: relative;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: var(--primary-purple);
+}
+.section-label::before,
+.section-label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--primary-purple));
+  opacity: 0.4;
+}
+.section-label::before { left: -50px; }
+.section-label::after { right: -50px; transform: rotate(180deg); }
+
+/* --- Icon Boxes (Merged) --- */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  transition: all 0.3s; 
+}
+
+.icon-box-sm {
+  width: 45px;
+  height: 45px;
+  font-size: 1rem;
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(135deg, #9747ff 0%, #7f27ff 100%);
+}
+
+.bg-gradient-orange {
+  background: linear-gradient(135deg, #9747ff 0%, #fd7e14 100%);
+}
+
+/* --- Buttons --- */
+.social-btn {
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.social-btn:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.btn-hover {
+  transition: all 0.3s;
+}
+.btn-hover:hover {
+  border-color: rgb(127, 39, 255, 0.5);
+  transform: translateY(-5px);
+}
+
+/* --- Form Customization (Cleaned) --- */
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 4px rgba(127, 39, 255, 0.15);
+  border: 1px solid var(--primary-purple) !important;
+  background-color: #fff;
+  outline: none;
+}
+
+::placeholder {
+  color: #adb5bd !important;
+  opacity: 1;
+}
+
+/* --- Background Shapes (Old) --- */
+.circle-violet, .circle-purple {
+  width: 384px;
+  height: 384px;
+}
+.circle-violet { top: -160px; right: -160px; background: #ede9fe; }
+.circle-purple { bottom: -160px; left: -160px; background: #fae8ff; }
+
+.ring-violet {
+  top: 80px; right: 80px; width: 128px; height: 128px; border: 4px solid #ddd6fe;
+}
+.ring-purple {
+  bottom: 128px; left: 128px; width: 96px; height: 96px; border: 4px solid #e9d5ff;
+}
+
+/* --- Hover Effects --- */
+.sec-hover .card {
+  border: 2px solid #ede9fe; 
+  transition: all 0.3s;
+}
+
+.sec-hover .card:hover {
+  border-color: rgb(127, 39, 255, 0.5);
+  transform: translateY(-5px);
+}
+
+.sec-hover .card:hover .icon-box {
+  transform: scale(1.05); 
+}

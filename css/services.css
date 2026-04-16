@@ -1,0 +1,102 @@
+
+
+/* --- Custom Tabs Styling --- */
+.services-nav .nav-pills .nav-link {
+  color: #555;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.services-nav .nav-pills .nav-link:hover {
+  color: var(--primary-purple);
+  background-color: rgba(127, 39, 255, 0.05);
+}
+
+.services-nav .nav-pills .nav-link.active {
+  background-color: var(--primary-purple) !important;
+  color: var(--primary-purple) !important;
+  border: 1px solid rgba(127, 39, 255, 0.2);
+}
+
+/* --- Components Sizing --- */
+
+#services .container-sm {
+    width: 95% !important;
+}
+
+.w-40 {
+    width: 40% !important ;
+}
+.w-60 {
+    width: 60%;
+}
+
+.feature-icon-box {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+
+.service-main-img {
+    height: 400px;
+    object-fit: cover;
+    width: 90% !important;
+}
+
+.floating-badge {
+    position: absolute;
+    bottom: -30px;
+    left: -30px; 
+    width: 140px;
+    z-index: 2;
+}
+
+.custom.floating-badge {
+    bottom: -30px;
+    left: 350px; 
+    width: 150px;
+}
+
+.fs-8 {
+    font-size: 1.125rem !important;
+}
+
+/* --- Custom Nav Tabs Design --- */
+
+.custom-nav.nav-tabs .nav-link {
+    color: #555;              
+    border: none;           
+    border-bottom: 3px solid transparent; 
+    background: transparent;
+    border-radius: 0;        
+    padding: 12px 20px;       
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.custom-nav.nav-tabs .nav-link:hover {
+    color: var(--primary-purple);
+    background-color: rgba(127, 39, 255, 0.05); 
+    border-color: transparent;      
+        border-bottom: 3px solid rgba(127, 39, 255, 0.5); 
+}
+
+.custom-nav.nav-tabs .nav-link.active {
+    color: var(--primary-purple) !important;     
+    background-color: var(--light-purple-bg) !important; 
+    border-bottom: 3px solid var(--primary-purple); 
+}
+
+.custom-nav.nav-tabs {
+    border-bottom: 1px solid #eee;
+}
+
+
+@media (min-width: 768px) {
+    .w-40.btn {
+        padding-inline: 5px !important; 
+    }
+}

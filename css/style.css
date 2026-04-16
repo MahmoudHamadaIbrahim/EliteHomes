@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+:root {
+  --primary-purple: #7f27ff;
+  --accent-orange: #ffb900;
+  --light-purple-bg: #f3e8ff;
+  --section-bg: #f9f9fb;
+  --light-purple-bg-hover: #e8d5ff;
+  --heart-red: #ff3b3b;
+  --light-green-bg: #dcfce7;
+  --light-orange-bg: #fef9c2;
+  --deep-purple-bg: #4a0e8f;
+  --purple-gradient: linear-gradient(135deg, #5b14b0 0%, #7f27ff 100%);
+}
+
+.text-purple {
+  color: var(--primary-purple) !important;
+}
+.bg-purple {
+  background-color: var(--primary-purple) !important;
+}
+.bg-orange {
+  background-color: #fd7e14 !important;
+}
+.x-small {
+  font-size: 0.75rem;
+}
+.text-pink {
+  color: #e91e63 !important;
+}
+.text-indigo {
+  color: #3f51b5 !important;
+}
+.bg-purple-light {
+  background-color: var(--light-purple-bg) !important;
+}
+.bg-green-light {
+  background-color: var(--light-green-bg) !important;
+}
+.bg-orange-light {
+  background-color: var(--light-orange-bg) !important;
+}
+.text-gradient-orange {
+  background: linear-gradient(to right, #7f27ff, #fd7e14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
